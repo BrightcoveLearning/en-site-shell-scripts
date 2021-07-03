@@ -1,5 +1,5 @@
 sudo chmod -R g+w /Users/rcrooks/github
-
+git config pull.rebase false
 sudo git pull
 
 echo 'pulled general content'
