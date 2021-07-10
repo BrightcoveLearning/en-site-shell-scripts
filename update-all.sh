@@ -1,4 +1,4 @@
-sudo chmod -R g+w /Users/rcrooks/sudo github
+sudo chmod -R g+w /Users/rcrooks/github
 cd ../general-en
 git config pull.rebase false
 sudo git pull
