@@ -1,0 +1,5 @@
+/Users/rcrooks/.gem/ruby/3.0.0/bin:/Users/rcrooks/.rvm/gems/ruby-3.0.0/bin:/Users/rcrooks/.rvm/gems/ruby-3.0.0@global/bin:/Users/rcrooks/.rvm/rubies/ruby-3.0.0/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/rcrooks/.rvm/bin
+
+/Users/rcrooks/.rvm/gems/ruby-2.7.2/bin:/Users/rcrooks/.rvm/gems/ruby-2.7.2@global/bin:/Users/rcrooks/.rvm/rubies/ruby-2.7.2/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/rcrooks/.rvm/bin
+
+/Users/rcrooks/.gem/ruby/3.0.0/bin:/Users/rcrooks/.rvm/gems/ruby-3.0.0/bin:/Users/rcrooks/.rvm/gems/ruby-3.0.0@global/bin:/Users/rcrooks/.rvm/rubies/ruby-3.0.0/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/rcrooks/.rvm/bin
