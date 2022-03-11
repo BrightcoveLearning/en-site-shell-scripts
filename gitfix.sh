@@ -3,11 +3,9 @@ git fetch origin
 git branch -u origin/main main
 git remote set-head origin -a
 echo 'local default branch set to main'
-rm ~/Library/Caches
+cd ~/Library/Caches/com.github.GitHubClient
+rm *.*
 echo 'local caches cleaned'
-rm ~/Library/Application Support
+cd ~/Library/Application\ Support/GitHub\ Desktop/Cache/Cache_Data
+rm *
 echo 'local app caches cleaned'
-rm /Library/Caches
-echo 'global caches cleaned'
-rm /Library/Application Support
-echo 'global app caches cleaned'
