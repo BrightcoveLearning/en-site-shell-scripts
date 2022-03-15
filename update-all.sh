@@ -5,11 +5,11 @@ sitesArray=(apis-en audience-en audience-insights-en beacon-en beacon-support-en
 for ((i = 1; i <= $#sitesArray; i++))
 do 
   cd "../$sitesArray[i]"
-  sudo git pull
-  sudo bundle update
-  sudo bundle exec jekyll build --trace
-  sudo git add --all
-  sudo git commit --all -m general-update
-  sudo git push
+  git pull
+  bundle update
+  bundle exec jekyll build --trace
+  git add --all
+  git commit --all -m general-update
+  git push
   echo 'updated '$sitesArray[i]
 done

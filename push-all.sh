@@ -6,6 +6,6 @@ for ((i = 1; i <= $#sitesArray; i++))
 do 
   cd "../$sitesArray[i]"
   git pull
-  sudo git push
+  git push
   echo 'pushed '$sitesArray[i]
 done
