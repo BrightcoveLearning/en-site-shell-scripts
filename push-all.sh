@@ -5,7 +5,6 @@ sitesArray=(apis-en audience-en audience-insights-en beacon-en beacon-support-en
 for ((i = 1; i <= $#sitesArray; i++))
 do 
   cd "../$sitesArray[i]"
-  git pull
-  git push
+  zsh push-all.sh
   echo 'pushed '$sitesArray[i]
 done
