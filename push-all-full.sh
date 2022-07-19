@@ -7,6 +7,6 @@ do
   cd "../$sitesArray[i]"
   zsh install-submodules.sh
   zsh pull-all.sh
-  zsh push-all.sh
+  zsh push-all-full.sh
   echo 'pushed '$sitesArray[i]
 done
