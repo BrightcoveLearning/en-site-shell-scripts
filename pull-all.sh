@@ -4,6 +4,7 @@ sitesArray=(apis-en audience-en audience-insights-en beacon-en beacon-support-en
 for ((i = 1; i <= $#sitesArray; i++))
 do 
   cd "../$sitesArray[i]"
+  zsh install-submodules.sh
   zsh pull-all.sh
   echo 'pulled '$sitesArray[i]
 done
