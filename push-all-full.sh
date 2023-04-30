@@ -1,7 +1,3 @@
-# sudo chmod -R g+w /Users/rcrooks/github
-NB=1
-# export NB so other scripts can see it
-export NB
 
 git config pull.rebase false
 git config --global pull.rebase false
